@@ -1,0 +1,654 @@
+[21:05:46] [main/INFO]: Loading Minecraft 1.19.2 with Fabric Loader 0.15.7
+[21:05:46] [ForkJoinPool-1-worker-4/WARN]: Mod ctov uses the version 3.2.6c which isn't compatible with Loader's extended semantic version format (Could not parse version number component '6c'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[21:05:46] [ForkJoinPool-1-worker-4/WARN]: Mod oceansdelight uses the version fabric-1.0.2-1.19.2 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'fabric'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[21:05:47] [main/WARN]: Warnings were found!
+ - Mod 'Better Clouds' (betterclouds) 1.2.10+1.19.2 recommends any version of modmenu, which is missing!
+	 - You should install any version of modmenu for the optimal experience.
+ - Mod 'Dynamic Lights' (dynamiclights) 1.7.1+mod recommends any version of modmenu, which is missing!
+	 - You should install any version of modmenu for the optimal experience.
+ - Mod 'Dynamic Lights' (dynamiclights) 1.7.1+mod recommends any version of modmenu-badges-lib, which is missing!
+	 - You should install any version of modmenu-badges-lib for the optimal experience.
+ - Mod 'Grappling Hook Mod' (grapplemod) 1.19.2-v1.7 recommends version 4.1.0 or later of modmenu, which is missing!
+	 - You should install version 4.1.0 or later of modmenu for the optimal experience.
+ - Mod 'Wakes' (wakes) 0.2.3+1.19.2 recommends version 4.1.2 or later of modmenu, which is missing!
+	 - You should install version 4.1.2 or later of modmenu for the optimal experience.
+ - Mod 'Wakes' (wakes) 0.2.3+1.19.2 recommends version 2.2.0 or later of yacl, which is missing!
+	 - You should install version 2.2.0 or later of yacl for the optimal experience.
+[21:05:47] [main/INFO]: Loading 229 mods:
+	- advancedcompass 1.2.14
+	- advancementplaques 1.4.6
+	- aileron 1.19-1.0.2
+	- appleskin 2.5.1+mc1.19
+	- architectury 6.5.77
+	- badpackets 0.2.3
+	- bclib 2.1.8
+	- betteradvancements 0.2.2.142
+	- betterclouds 1.2.10+1.19.2
+	- bettercombat 1.7.1+1.19
+	- betterdeserttemples 1.19.2-Fabric-2.2.2
+	   \-- org_reflections_reflections 0.10.2
+	- betterdungeons 1.19.2-Fabric-3.2.1
+	- betterend 2.1.7
+	- betterendisland 1.19.2-Fabric-1.0
+	- betterfortresses 1.19.2-Fabric-1.0.6
+	- betterjungletemples 1.19.2-Fabric-1.0.1
+	- bettermineshafts 1.19.2-Fabric-3.2.1
+	- betternether 7.1.5
+	- betteroceanmonuments 1.19.2-Fabric-2.1.1
+	- betterthirdperson 1.9.0
+	- bettervillage 3.1.0
+	- bookshelf 16.3.20
+	- cardinal-components 5.0.2
+	   |-- cardinal-components-base 5.0.2
+	   |-- cardinal-components-block 5.0.2
+	   |-- cardinal-components-chunk 5.0.2
+	   |-- cardinal-components-entity 5.0.2
+	   |-- cardinal-components-item 5.0.2
+	   |-- cardinal-components-level 5.0.2
+	   |-- cardinal-components-scoreboard 5.0.2
+	   \-- cardinal-components-world 5.0.2
+	- chas 1.19-1.9-Fabric
+	- cloth-config 8.3.115
+	   \-- cloth-basic-math 0.6.1
+	- continents 1.1.4
+	- continuity 2.0.2+1.19
+	- corgilib 1.0.0.34
+	   |-- com_electronwill_night-config_core 3.6.6
+	   \-- com_electronwill_night-config_toml 3.6.6
+	- ctov 3.2.6c
+	- decorative_blocks 3.0.0
+	- dehydration 1.3.4
+	- distanthorizons 2.0.1-a
+	   |-- fabric-api-base 0.4.15+8f4e8eb390
+	   |-- fabric-events-interaction-v0 0.4.34+562bff6e90
+	   |-- fabric-lifecycle-events-v1 2.2.4+1b46dc7890
+	   |-- fabric-networking-api-v1 1.2.12+def3f86d90
+	   \-- fabric-resource-loader-v0 0.8.4+edbdcddb90
+	- dungeons_andtaverns_mr 2.0.2
+	- dynamiclights 1.7.1+mod
+	- eatinganimationid 1.9.1
+	- effective 1.4
+	   \-- midnightlib 0.5.2
+	- endrem 5.2.0
+	- ends_delight 1.19.2-1.0
+	- enhancedcelestials 2.1.0.6
+	- entity_model_features 1.2.3
+	- entity_texture_features 5.2.3
+	   \-- org_apache_httpcomponents_httpmime 4.5.10
+	- entityculling 1.6.1-mc1.19.2
+	- expandeddelight 0.2.5.2
+	- explosiveenhancement 1.2.2-1.19.2
+	- fabric-api 0.77.0+1.19.2
+	   |-- fabric-api-lookup-api-v1 1.6.14+93d8cb8290
+	   |-- fabric-biome-api-v1 9.1.1+16f1e31390
+	   |-- fabric-block-api-v1 1.0.2+e415d50e90
+	   |-- fabric-blockrenderlayer-v1 1.1.25+cafc6e8e90
+	   |-- fabric-client-tags-api-v1 1.0.5+b35fea8390
+	   |-- fabric-command-api-v1 1.2.16+f71b366f90
+	   |-- fabric-command-api-v2 2.2.1+413cbbc790
+	   |-- fabric-commands-v0 0.2.33+df3654b390
+	   |-- fabric-containers-v0 0.1.42+df3654b390
+	   |-- fabric-content-registries-v0 3.5.2+7c6cd14d90
+	   |-- fabric-convention-tags-v1 1.3.0+4bc6e26290
+	   |-- fabric-crash-report-info-v1 0.2.8+aeb40ebe90
+	   |-- fabric-data-generation-api-v1 5.3.9+413cbbc790
+	   |-- fabric-dimensions-v1 2.1.35+0d0f210290
+	   |-- fabric-entity-events-v1 1.5.4+9244241690
+	   |-- fabric-events-lifecycle-v0 0.2.36+df3654b390
+	   |-- fabric-game-rule-api-v1 1.0.24+b6b6abb490
+	   |-- fabric-item-api-v1 1.6.6+b7d1888890
+	   |-- fabric-item-groups-v0 0.3.39+9244241690
+	   |-- fabric-key-binding-api-v1 1.0.25+5c4fce2890
+	   |-- fabric-keybindings-v0 0.2.23+df3654b390
+	   |-- fabric-loot-api-v2 1.1.13+83a8659290
+	   |-- fabric-loot-tables-v1 1.1.16+9e7660c690
+	   |-- fabric-message-api-v1 5.0.7+93d8cb8290
+	   |-- fabric-mining-level-api-v1 2.1.24+33fbc73890
+	   |-- fabric-models-v0 0.3.21+c6af733c90
+	   |-- fabric-networking-v0 0.3.29+df3654b390
+	   |-- fabric-object-builder-api-v1 4.2.2+d8ef690890
+	   |-- fabric-particles-v1 1.1.0+ee641e7390
+	   |-- fabric-recipe-api-v1 1.0.2+413cbbc790
+	   |-- fabric-registry-sync-v0 0.9.33+9244241690
+	   |-- fabric-renderer-api-v1 1.2.1+1adbf27790
+	   |-- fabric-renderer-indigo 0.8.0+1adbf27790
+	   |-- fabric-renderer-registries-v1 3.2.25+df3654b390
+	   |-- fabric-rendering-data-attachment-v1 0.3.19+6e0787e690
+	   |-- fabric-rendering-fluids-v1 3.0.11+4d0d570390
+	   |-- fabric-rendering-v0 1.1.28+df3654b390
+	   |-- fabric-rendering-v1 1.13.0+526f2c6790
+	   |-- fabric-resource-conditions-api-v1 2.1.2+aae9039d90
+	   |-- fabric-screen-api-v1 1.0.32+4d0d570390
+	   |-- fabric-screen-handler-api-v1 1.3.8+1cc24b1b90
+	   |-- fabric-sound-api-v1 1.0.2+c4f28df590
+	   |-- fabric-textures-v0 1.0.24+aeb40ebe90
+	   |-- fabric-transfer-api-v1 2.1.6+413cbbc790
+	   \-- fabric-transitive-access-wideners-v1 1.3.3+08b73de490
+	- fabricloader 0.15.7
+	   \-- mixinextras 0.3.5
+	- farmersdelight 1.19.2-1.3.10.2
+	- forgeconfigapiport 4.2.11
+	- friendlyfire 14.0.4
+	- fusion 1.1.0+c
+	- geckolib3 3.1.40
+	   \-- com_eliotlash_mclib_mclib 20
+	- geophilic 1.19-2.0.0c
+	- grapplemod 1.19.2-v1.7
+	- handcrafted 2.0.6
+	- horseexpert 4.0.0
+	- horsestonks 1.0.1
+	- iceberg 1.0.46
+	- immersive_melodies 0.1.0+1.19.2
+	- indium 1.0.9+mc1.19.2
+	- inventoryhud 3.4.7
+	- java 17
+	- jei 11.6.0.1019
+	- jeresources 1.2.3.243
+	- libraryferret 4.0.0
+	- magistuarmory 8.13
+	- majruszlibrary 7.0.4-backport.1
+	- majruszsdifficulty 1.9.7-backport.1
+	- majruszsenchantments 1.10.6-backport.1
+	- mca 7.5.14+1.19.2
+	- mcwdoors 1.1.0
+	- mcwfences 1.1.1
+	- mcwroofs 2.3.0
+	- mcwtrpdoors 1.1.2
+	- mcwwindows 2.2.0
+	- mes 1.3-1.19.2-fabric
+	- minecraft 1.19.2
+	- moonlight 1.19.2-2.3.6
+	- moreblocksmod 0.2
+	- mvs 4.1.1-1.19.2-fabric
+	- mythicmounts 1.19.2-7.2
+	- naturalist 4.0.3
+	- naturescompass 1.19.2-2.1.0-fabric
+	- nethersdelight 1.0.1
+	   \-- disable_custom_worlds_advice 3.0
+	- niftycarts 2.1.1+1.19.2
+	- notenoughanimations 1.7.1
+	- oceansdelight fabric-1.0.2-1.19.2
+	- owo 0.8.5+1.19
+	- patchouli 1.19.2-77-FABRIC
+	   \-- fiber 0.23.0-2
+	- player-animator 1.0.2
+	- puffish_skills 0.4.0
+	- puzzleslib 4.4.3
+	   |-- cardinal-components-base 5.0.2
+	   |-- cardinal-components-block 5.0.2
+	   |-- cardinal-components-chunk 5.0.2
+	   |-- cardinal-components-entity 5.0.2
+	   \-- cardinal-components-world 5.0.2
+	- rechiseled 1.1.5+b
+	- reinfbarrel 2.3.0+1.19
+	   \-- reinfcore 3.0.3+1.19
+	- reinfchest 2.2.0+1.19
+	   \-- reinfcore 3.0.3+1.19
+	- reinfshulker 2.2.0+1.19
+	   \-- reinfcore 3.0.3+1.19
+	- resourcefullib 1.1.24
+	- runelic 14.1.4
+	- satin 1.9.0
+	- seamless 2.2.2
+	- seamless_loading_screen 2.0.3+1.19.2
+	- seasons 2.3+1.19
+	- seasonsdelightcompat 1.0-1.3.9
+	- seasonsextras 1.2-BETA+1.19
+	- shinyhorses 1.0.0
+	- simplyskills 0.14.1-beta
+	- smallships 2.0.0-b1.0
+	- sodium 0.4.4+build.18
+	   \-- org_joml_joml 1.10.4
+	- sound_physics_remastered 1.19.2-1.3.1
+	- spell_engine 0.9.25+1.19
+	- spell_power 0.9.12+1.19
+	- structory 1.0.1
+	- supermartijn642configlib 1.1.8+a
+	- supermartijn642corelib 1.1.17
+	- things 0.3.0+1.19
+	   \-- reach-entity-attributes 2.3.0
+	- tlc 1.0.0
+	- travelersbackpack 1.19.2-8.2.33
+	   \-- reach-entity-attributes 2.3.0
+	- trinkets 3.4.2
+	- twigs 3.0.0
+	- twilightforest 4.2.357
+	   |-- com_google_code_findbugs_jsr305 3.0.2
+	   |-- here-be-no-dragons 1.0.0
+	   |-- javax_annotation_javax_annotation-api 1.3.2
+	   |-- mm 2.3
+	   |-- porting_lib 2.1.727+1.19.2
+	   |    |-- forge_tags 3.0
+	   |    |-- porting_lib_accessors 2.1.727+1.19.2
+	   |    |-- porting_lib_attributes 2.1.727+1.19.2
+	   |    |-- porting_lib_base 2.1.727+1.19.2
+	   |    |-- porting_lib_common 2.1.727+1.19.2
+	   |    |-- porting_lib_constants 2.1.727+1.19.2
+	   |    |-- porting_lib_entity 2.1.727+1.19.2
+	   |    |-- porting_lib_extensions 2.1.727+1.19.2
+	   |    |-- porting_lib_fake_players 2.1.727+1.19.2
+	   |    |-- porting_lib_lazy_registration 2.1.727+1.19.2
+	   |    |-- porting_lib_model_generators 2.1.727+1.19.2
+	   |    |-- porting_lib_model_loader 2.1.727+1.19.2
+	   |    |-- porting_lib_models 2.1.727+1.19.2
+	   |    |-- porting_lib_networking 2.1.727+1.19.2
+	   |    |-- porting_lib_obj_loader 2.1.727+1.19.2
+	   |    |-- porting_lib_transfer 2.1.727+1.19.2
+	   |    \-- serialization_hooks 0.3.26
+	   \-- reach-entity-attributes 2.3.0
+	- vulkanmod 0.3.1+1
+	   |-- org_lwjgl_lwjgl-shaderc 3.3.1
+	   |-- org_lwjgl_lwjgl-shaderc_natives-linux 3.3.1
+	   |-- org_lwjgl_lwjgl-shaderc_natives-windows 3.3.1
+	   |-- org_lwjgl_lwjgl-vma 3.3.1
+	   |-- org_lwjgl_lwjgl-vma_natives-linux 3.3.1
+	   |-- org_lwjgl_lwjgl-vma_natives-windows 3.3.1
+	   \-- org_lwjgl_lwjgl-vulkan 3.3.1
+	- wakes 0.2.3+1.19.2
+	   |-- blue_endless_jankson 1.2.2
+	   \-- com_github_jdiemke_delaunay-triangulator_delaunaytriangulator 1.0.0
+	- wthit 5.22.2
+	- xaerominimap 23.9.7
+	- xaeroworldmap 1.37.8
+	- yet-another-config-lib 2.2.0-for-1.19.2
+	- yungsapi 1.19.2-Fabric-3.8.10
+	   \-- org_javassist_javassist 3.28.0-GA
+[21:05:47] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/there/curseforge/minecraft/Install/libraries/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
+[21:05:47] [main/INFO]: Compatibility level set to JAVA_17
+[21:05:48] [main/WARN]: Reference map 'aileron-fabric-refmap.json' for aileron.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:05:48] [main/WARN]: Reference map 'entity_model_features_fabric_1.19.2-fabric-refmap.json' for entity_model_features.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:05:48] [main/WARN]: Reference map 'JustEnoughResources-Fabric-1.19.2-refmap.json' for jeresources.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:05:48] [main/WARN]: Reference map 'NethersDelight-refmap.json' for nethersdelight.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:05:48] [main/WARN]: Reference map 'oceansdelight-refmap.json' for oceansdelight.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:05:48] [main/WARN]: [Satin] Sodium is present, custom block renders may not work
+[21:05:48] [main/WARN]: Reference map 'seamless-loading-screen-fabric-refmap.json' for seamless_loading_screen-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:05:48] [main/INFO]: Loaded configuration file for Sodium: 29 options available, 1 override(s) found
+[21:05:48] [main/WARN]: Reference map 'supermartijn642configlib.mixins.refmap.json' for supermartijn642configlib.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:05:48] [main/WARN]: Reference map 'fabric-the-lost-castle-refmap.json' for tlc.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:05:49] [main/WARN]: Error loading class: net/coderbot/iris/pipeline/newshader/ExtendedShader (java.lang.ClassNotFoundException: net/coderbot/iris/pipeline/newshader/ExtendedShader)
+[21:05:49] [main/WARN]: @Mixin target net.coderbot.iris.pipeline.newshader.ExtendedShader was not found betterclouds.mixins.json:ExtendedShaderAccessor from mod betterclouds
+[21:05:49] [main/WARN]: Error loading class: net/coderbot/iris/pipeline/newshader/fallback/FallbackShader (java.lang.ClassNotFoundException: net/coderbot/iris/pipeline/newshader/fallback/FallbackShader)
+[21:05:49] [main/WARN]: @Mixin target net.coderbot.iris.pipeline.newshader.fallback.FallbackShader was not found betterclouds.mixins.json:FallbackShaderAccessor from mod betterclouds
+[21:05:49] [main/WARN]: Error loading class: net/coderbot/batchedentityrendering/impl/FullyBufferedMultiBufferSource (java.lang.ClassNotFoundException: net/coderbot/batchedentityrendering/impl/FullyBufferedMultiBufferSource)
+[21:05:49] [main/WARN]: Error loading class: net/coderbot/iris/layer/InnerWrappedRenderType (java.lang.ClassNotFoundException: net/coderbot/iris/layer/InnerWrappedRenderType)
+[21:05:49] [main/WARN]: Error loading class: net/coderbot/iris/layer/OuterWrappedRenderType (java.lang.ClassNotFoundException: net/coderbot/iris/layer/OuterWrappedRenderType)
+[21:05:49] [main/WARN]: Error loading class: dev/tr7zw/skinlayers/render/CustomizableModelPart (java.lang.ClassNotFoundException: dev/tr7zw/skinlayers/render/CustomizableModelPart)
+[21:05:49] [main/WARN]: Error loading class: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage)
+[21:05:49] [main/WARN]: Force-disabling mixin 'features.gui.fast_loading_screen.MixinLevelLoadingScreen' as rule 'mixin.features.gui.fast_loading_screen' (added by mods [seamless_loading_screen]) disables it and children
+[21:05:50] [main/WARN]: Error loading class: org/jetbrains/annotations/ApiStatus$Internal (java.lang.ClassNotFoundException: org/jetbrains/annotations/ApiStatus$Internal)
+[21:05:50] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[21:05:51] [main/INFO]: wthit.mixins.json:MinecraftAccess from mod wthit->@Accessor[FIELD_GETTER]::wthit_getFps()I should be static as its target is
+[21:05:52] [main/WARN]: Method overwrite conflict for self in smallships-common.mixins.json:interaction.EntityMixin from mod smallships, previously written by com.talhanation.smallships.mixin.leashing.EntityMixin. Skipping method.
+[21:05:53] [main/INFO]: [bclib] Added Config bclib.generator to auto sync (file hash)
+[21:05:53] [main/INFO]: [bclib] Added Config bclib.main to auto sync (content diff)
+[21:05:53] [main/INFO]: [bclib] Added Config bclib.recipes to auto sync (file hash)
+[21:05:53] [main/INFO]: [bclib] Added Config bclib.biomes to auto sync (file hash)
+[21:05:53] [main/WARN]: Error loading class: org/spongepowered/asm/synthetic/args/Args$5 (java.lang.ClassNotFoundException: org/spongepowered/asm/synthetic/args/Args$5)
+[21:05:55] [main/INFO]: Building optimized datafixer
+[21:06:00] [main/ERROR]: Registry 'corgilib:blending_function' was empty after loading
+[21:06:00] [main/ERROR]: Registry 'corgilib:villager_trades_item_listing' was empty after loading
+[21:06:00] [main/ERROR]: Registry 'corgilib:condition' was empty after loading
+[21:06:01] [main/INFO]: [bclib] Added Config betternether.main to auto sync (file hash)
+[21:06:01] [main/INFO]: [bclib] Added Config betternether.generator to auto sync (file hash)
+[21:06:01] [main/INFO]: [bclib] Added Config betternether.blocks to auto sync (file hash)
+[21:06:01] [main/INFO]: [bclib] Added Config betternether.items to auto sync (file hash)
+[21:06:01] [main/INFO]: [bclib] Added Config betternether.biomes to auto sync (file hash)
+[21:06:01] [main/INFO]: [bclib] Added Config betternether.mobs to auto sync (file hash)
+[21:06:01] [main/INFO]: [bclib] Added Config betternether.recipes to auto sync (file hash)
+[21:06:02] [Render thread/WARN]: Method overwrite conflict for method_1325 in vulkanmod.mixins.json:render.vertex.BufferBuilderM from mod vulkanmod, previously written by me.jellysquid.mods.sodium.mixin.features.buffer_builder.fast_advance.MixinBufferBuilder. Skipping method.
+[21:06:02] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[21:06:03] [Render thread/INFO]: Setting user: Dandy_blobber
+[21:06:05] [Render thread/INFO]: Reflections took 192 ms to scan 1 urls, producing 1 keys and 2 values
+[21:06:05] [Render thread/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 2 values
+[21:06:05] [Render thread/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 3 values
+[21:06:05] [Render thread/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 3 values
+[21:06:06] [Render thread/INFO]: [bclib] Added Config betterend.entities to auto sync (file hash)
+[21:06:06] [Render thread/INFO]: [bclib] Added Config betterend.blocks to auto sync (file hash)
+[21:06:06] [Render thread/INFO]: [bclib] Added Config betterend.items to auto sync (file hash)
+[21:06:06] [Render thread/INFO]: [bclib] Added Config betterend.biomes to auto sync (file hash)
+[21:06:06] [Render thread/INFO]: [bclib] Added Config betterend.recipes to auto sync (file hash)
+[21:06:06] [Render thread/INFO]: [bclib] Added Config betterend.enchantments to auto sync (file hash)
+[21:06:24] [Render thread/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[21:06:24] [Render thread/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[21:06:24] [Render thread/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[21:06:24] [Render thread/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[21:06:24] [Render thread/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 3 values
+[21:06:24] [Render thread/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
+[21:06:24] [Render thread/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
+[21:06:24] [Render thread/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[21:06:24] [Render thread/INFO]: [betternether] =^..^=    BetterNether for 1.19    =^..^=
+[21:06:24] [Render thread/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[21:06:24] [Render thread/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[21:06:25] [Render thread/INFO]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
+[21:06:25] [Render thread/INFO]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
+[21:06:25] [Render thread/INFO]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
+[21:06:25] [Render thread/INFO]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
+[21:06:25] [Render thread/INFO]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
+[21:06:25] [Render thread/INFO]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
+[21:06:25] [Render thread/INFO]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
+[21:06:25] [Render thread/INFO]: Initializing network...
+[21:06:25] [Render thread/INFO]: Initialized network!
+[21:06:25] [Render thread/ERROR]: No data fixer registered for decorative_blocks:dummy
+[21:06:25] [Render thread/INFO]: [Dynamic Lights] MidnightLib detected!
+[21:06:25] [Render thread/INFO]: [Dynamic Lights] Registering server started event...
+[21:06:25] [Render thread/INFO]: [Dynamic Lights] Loaded Dynamic Lights by Tschipcraft successfully!
+[21:06:25] [Render thread/INFO]: Registering Mod Blocks for ends_delight
+[21:06:25] [Render thread/INFO]: Registering Mod Features for ends_delight
+[21:06:25] [Render thread/INFO]: Hello Fabric world!
+[21:06:25] [Render thread/ERROR]: Registry 'enhancedcelestials:lunar/event' was empty after loading
+[21:06:25] [Render thread/ERROR]: Registry 'enhancedcelestials:lunar/dimension_settings' was empty after loading
+[21:06:25] [Render thread/INFO]: Initializing enhancedcelestials network...
+[21:06:25] [Render thread/INFO]: Initialized enhancedcelestials network!
+[21:06:25] [Render thread/INFO]: Loaded config file.
+[21:06:25] [Render thread/INFO]: Saved config file.
+[21:06:26] [Render thread/ERROR]: No data fixer registered for handcrafted
+[21:06:26] [Worker-Bootstrap-3/INFO]: 4283 Datafixer optimizations took 30724 milliseconds
+[21:06:26] [Render thread/INFO]: Constructing common components for mod horseexpert
+[21:06:26] [Render thread/INFO]: Loading client config for horseexpert
+[21:06:26] [Thread-1/INFO]: Reloading client config for horseexpert
+[21:06:26] [Render thread/INFO]: Initialize mod Library Ferret
+[21:06:26] [Render thread/INFO]: Initialized mod Library Ferret
+[21:06:27] [Render thread/INFO]: Registering C2S receiver with id magistuarmory:packet_long_reach_attack
+[21:06:27] [Render thread/INFO]: Registering C2S receiver with id magistuarmory:packet_lance_collision
+[21:06:27] [Render thread/INFO]: Registering S2C receiver with id magistuarmory:packet_bc_or_ef_installed
+[21:06:27] [Render thread/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on fusion.mixins.json:TextureAtlasMixin from mod fusion::handler$cnj000$fusion$gatherMetadata exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[21:06:27] [Render thread/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on seamless_loading_screen-common.mixins.json:GameRendererMixin from mod seamless_loading_screen::handler$ebl000$seamless_loading_screen$attemptToTakeScreenshot exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[21:06:27] [Render thread/WARN]: Method overwrite conflict for getOffset in vulkanmod.mixins.json:render.vertex.VertexFormatMixin from mod vulkanmod, previously written by io.github.fabricators_of_create.porting_lib.mixin.client.VertexFormatMixin. Skipping method.
+[21:06:27] [Render thread/WARN]: Static binding violation: PRIVATE @Overwrite method method_23182 in sodium.mixins.json:features.item.MixinItemRenderer from mod sodium cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[21:06:27] [Render thread/WARN]: Static binding violation: PRIVATE @Overwrite method method_23180 in sodium.mixins.json:features.item.MixinItemRenderer from mod sodium cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[21:06:27] [Render thread/ERROR]: No data fixer registered for cerberus
+[21:06:27] [Render thread/ERROR]: No data fixer registered for creeperling
+[21:06:27] [Render thread/ERROR]: No data fixer registered for cursed_armor
+[21:06:27] [Render thread/ERROR]: No data fixer registered for tank
+[21:06:28] [Render thread/ERROR]: No data fixer registered for mca:tombstone
+[21:06:28] [Render thread/ERROR]: No data fixer registered for mca:male_villager
+[21:06:28] [Render thread/ERROR]: No data fixer registered for mca:female_villager
+[21:06:28] [Render thread/ERROR]: No data fixer registered for mca:male_zombie_villager
+[21:06:28] [Render thread/ERROR]: No data fixer registered for mca:female_zombie_villager
+[21:06:28] [Render thread/ERROR]: No data fixer registered for mca:grim_reaper
+[21:06:29] [Render thread/INFO]: Definitely not up to no good
+[21:07:24] [Render thread/INFO]: Registering Items for oceansdelight
+[21:07:24] [Render thread/INFO]: Registering Blocks for oceansdelight
+[21:07:25] [Render thread/INFO]: Constructing common components for mod puzzleslib
+[21:07:25] [Render thread/INFO]: [Fabric Seasons] Trying to read config file...
+[21:07:25] [Render thread/INFO]: [Fabric Seasons] A config file was found, loading it..
+[21:07:25] [Render thread/INFO]: [Fabric Seasons] Successfully loaded config file.
+[21:07:25] [Render thread/INFO]: [Fabric Seasons] Successfully loaded seasonsdelightcompat 1.0 for farmersdelight 1.3.9
+[21:07:25] [Render thread/INFO]: Registering Items for simplyskills
+[21:07:25] [Render thread/WARN]: Configuration file C:\Users\there\curseforge\minecraft\Instances\no create this time fabric maybe\config\smallships-common.toml is not correct. Correcting
+[21:07:25] [Render thread/WARN]: Incorrect key schematicVersion was corrected from 4 to its default, 4. This seems to be an error.
+[21:07:25] [Render thread/WARN]: Configuration file C:\Users\there\curseforge\minecraft\Instances\no create this time fabric maybe\config\smallships-client.toml is not correct. Correcting
+[21:07:25] [Render thread/WARN]: Incorrect key schematicVersion was corrected from 1 to its default, 1. This seems to be an error.
+[21:07:26] [Render thread/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for minecraft:water 81000 with the ID 0
+[21:07:26] [Render thread/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for minecraft:lava 81000 with the ID 1
+[21:07:26] [Render thread/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for travelersbackpack:potion_still 27000 with the ID 2
+[21:07:26] [Render thread/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:milk for travelersbackpack:milk_still 81000 with the ID 3
+[21:07:26] [Render thread/ERROR]: No data fixer registered for twigs:pebble
+[21:07:27] [Render thread/INFO]: == VulkanMod ==
+[21:07:27] [Render thread/INFO]: [WTHIT] Registering plugin betternether:plugin at org.betterx.betternether.integrations.wthit.WailaPlugin
+[21:07:27] [Render thread/INFO]: [betternether] Registering Waila-/Wthit-Plugin.
+[21:07:27] [Render thread/INFO]: [WTHIT] Registering plugin waila:core at mcp.mobius.waila.plugin.core.WailaPluginCore
+[21:07:27] [Render thread/INFO]: [WTHIT] Registering plugin waila:vanilla at mcp.mobius.waila.plugin.vanilla.WailaPluginVanilla
+[21:07:27] [Render thread/INFO]: [WTHIT] Registering plugin waila:harvest at mcp.mobius.waila.plugin.harvest.WailaPluginHarvest
+[21:07:27] [Render thread/INFO]: [WTHIT] Registering plugin waila:fabric at mcp.mobius.waila.plugin.fabric.WailaPluginFabric
+[21:07:27] [Render thread/INFO]: [WTHIT] Registering plugin betternether:global at org.betterx.betternether.integrations.wthit.WailaPlugin
+[21:07:27] [Render thread/INFO]: [betternether] Registering Waila-/Wthit-Plugin.
+[21:07:27] [Render thread/INFO]: [WTHIT] Registering plugin waila:extra at mcp.mobius.waila.plugin.extra.WailaPluginExtra
+[21:07:27] [Render thread/INFO]: [WTHIT] Plugin config reloaded
+[21:07:27] [Render thread/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 4 values
+[21:07:27] [Render thread/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 4 values
+[21:07:27] [Render thread/WARN]: Static binding violation: PRIVATE @Overwrite method method_22702 in sodium.mixins.json:features.entity.fast_render.MixinModelPart from mod sodium cannot reduce visibiliy of PROTECTED target method, visibility will be upgraded.
+[21:07:27] [Render thread/ERROR]: Mixin apply for mod vulkanmod failed vulkanmod.mixins.json:render.model.ModelPartM from mod vulkanmod -> net.minecraft.class_630: org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException PRIVATE @Overwrite method method_22702 in vulkanmod.mixins.json:render.model.ModelPartM from mod vulkanmod cannot reduce visibiliy of PROTECTED target method
+org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException: PRIVATE @Overwrite method method_22702 in vulkanmod.mixins.json:render.model.ModelPartM from mod vulkanmod cannot reduce visibiliy of PROTECTED target method
+	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.conformVisibility(MixinPreProcessorStandard.java:479) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.attachSpecialMethod(MixinPreProcessorStandard.java:452) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.attachOverwriteMethod(MixinPreProcessorStandard.java:416) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.attachMethods(MixinPreProcessorStandard.java:346) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.attach(MixinPreProcessorStandard.java:299) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.createContextFor(MixinPreProcessorStandard.java:277) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinInfo.createContextFor(MixinInfo.java:1289) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:294) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.TargetClassContext.apply(TargetClassContext.java:421) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:403) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:363) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:234) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:202) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:422) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.tryLoadClass(KnotClassDelegate.java:323) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:218) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:119) ~[fabric-loader-0.15.7.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	at net.minecraft.class_5610.method_32112(class_5610.java:33) ~[client-intermediary.jar:?]
+	at net.minecraft.class_5607.method_32109(class_5607.java:15) ~[client-intermediary.jar:?]
+	at com.magistuarmory.fabric.client.render.entity.layer.MedievalArmorLayer.<clinit>(MedievalArmorLayer.java:30) ~[%5B1.19.2-fabric%5D-Epic-Knights-8.13.jar:?]
+	at com.magistuarmory.client.render.fabric.ModRenderImpl.setupPlatform(ModRenderImpl.java:50) ~[%5B1.19.2-fabric%5D-Epic-Knights-8.13.jar:?]
+	at com.magistuarmory.client.render.ModRender.setupPlatform(ModRender.java) ~[%5B1.19.2-fabric%5D-Epic-Knights-8.13.jar:?]
+	at com.magistuarmory.client.render.ModRender.setup(ModRender.java:42) ~[%5B1.19.2-fabric%5D-Epic-Knights-8.13.jar:?]
+	at com.magistuarmory.api.item.ModItemsProvider.lambda$init$2(ModItemsProvider.java:201) ~[%5B1.19.2-fabric%5D-Epic-Knights-8.13.jar:?]
+	at java.lang.invoke.MethodHandle.invokeWithArguments(MethodHandle.java:732) ~[?:?]
+	at dev.architectury.event.EventFactory.invokeMethod(EventFactory.java:53) ~[architectury-6.5.77-fabric.jar:?]
+	at dev.architectury.event.EventFactory$1.handleInvocation(EventFactory.java:62) ~[architectury-6.5.77-fabric.jar:?]
+	at com.google.common.reflect.AbstractInvocationHandler.invoke(AbstractInvocationHandler.java:89) ~[guava-31.0.1-jre.jar:?]
+	at jdk.proxy2.$Proxy69.run(Unknown Source) ~[?:?]
+	at dev.architectury.init.fabric.ArchitecturyClient.init(ArchitecturyClient.java:29) ~[architectury-6.5.77-fabric.jar:?]
+	at java.lang.invoke.MethodHandleProxies$1.invoke(MethodHandleProxies.java:198) ~[?:?]
+	at com.sun.proxy.jdk.proxy3.$Proxy68.onInitializeClient(Unknown Source) ~[?:?]
+	at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:384) [fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.Hooks.startClient(Hooks.java:53) [fabric-loader-0.15.7.jar:?]
+	at net.minecraft.class_310.<init>(class_310.java:459) [client-intermediary.jar:?]
+	at net.minecraft.client.main.Main.method_44604(Main.java:205) [client-intermediary.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:51) [client-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) [fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.15.7.jar:?]
+[21:07:27] [Render thread/INFO]: Loaded
+[21:07:27] [Render thread/ERROR]: java.io.FileNotFoundException: C:\Users\there\curseforge\minecraft\Instances\no create this time fabric maybe\config\betteradvancements.json (The system cannot find the file specified)
+[21:07:27] [Render thread/INFO]: Loading Config...
+[21:07:28] [Render thread/WARN]: Method overwrite conflict for getPixelRGBA in moonlight.mixins.json:TextureAtlasSpriteMixin from mod moonlight, previously written by io.github.fabricators_of_create.porting_lib.mixin.client.TextureAtlasSpriteMixin. Skipping method.
+[21:07:28] [Render thread/INFO]: Initializing Mod
+[21:07:28] [Render thread/INFO]: Distant Horizons, Version: 2.0.1-a
+[21:07:28] [Render thread/INFO]: DH Branch: main
+[21:07:28] [Render thread/INFO]: DH Commit: 1a07fb83b686ae8f0bc1d5ee6bfdb5918ea815a8
+[21:07:28] [Render thread/INFO]: DH Jar Build Source: User
+[21:07:28] [Render thread/INFO]: Registered mod compatibility accessor for: [Sodium-Fabric].
+[21:07:28] [Render thread/INFO]: Registered mod compatibility accessor for: [BCLib].
+[21:07:28] [Render thread/INFO]: Distant Horizons Initialized
+[21:07:28] [Render thread/INFO]: Initialising config for DistantHorizons
+[21:07:28] [Render thread/INFO]: Config for DistantHorizons initialised
+[21:07:28] [Render thread/INFO]: Registering Fabric Server Events
+[21:07:28] [Render thread/INFO]: Registering Fabric Client Events
+[21:07:28] [Render thread/INFO]: Loading Entity Model Features, now compatible with Minecraft Legends!
+[21:07:28] [Render thread/WARN]: Static binding violation: PRIVATE @Overwrite method method_22702 in sodium.mixins.json:features.entity.fast_render.MixinModelPart from mod sodium cannot reduce visibiliy of PROTECTED target method, visibility will be upgraded.
+[21:07:28] [Render thread/ERROR]: Mixin apply for mod vulkanmod failed vulkanmod.mixins.json:render.model.ModelPartM from mod vulkanmod -> net.minecraft.class_630: org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException PRIVATE @Overwrite method method_22702 in vulkanmod.mixins.json:render.model.ModelPartM from mod vulkanmod cannot reduce visibiliy of PROTECTED target method
+org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException: PRIVATE @Overwrite method method_22702 in vulkanmod.mixins.json:render.model.ModelPartM from mod vulkanmod cannot reduce visibiliy of PROTECTED target method
+	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.conformVisibility(MixinPreProcessorStandard.java:479) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.attachSpecialMethod(MixinPreProcessorStandard.java:452) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.attachOverwriteMethod(MixinPreProcessorStandard.java:416) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.attachMethods(MixinPreProcessorStandard.java:346) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.attach(MixinPreProcessorStandard.java:299) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.createContextFor(MixinPreProcessorStandard.java:277) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinInfo.createContextFor(MixinInfo.java:1289) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:294) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.TargetClassContext.apply(TargetClassContext.java:421) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:403) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:363) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:234) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:202) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:422) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.tryLoadClass(KnotClassDelegate.java:323) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:218) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:119) ~[fabric-loader-0.15.7.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	at traben.entity_model_features.EMFClient.init(EMFClient.java:51) ~[entity_model_features_fabric_1.19.2-1.2.3.jar:?]
+	at traben.entity_model_features.fabriclike.EMFFabricLike.init(EMFFabricLike.java:7) ~[entity_model_features_fabric_1.19.2-1.2.3.jar:?]
+	at traben.entity_model_features.fabric.EMFFabric.onInitializeClient(EMFFabric.java:10) ~[entity_model_features_fabric_1.19.2-1.2.3.jar:?]
+	at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:384) [fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.Hooks.startClient(Hooks.java:53) [fabric-loader-0.15.7.jar:?]
+	at net.minecraft.class_310.<init>(class_310.java:459) [client-intermediary.jar:?]
+	at net.minecraft.client.main.Main.method_44604(Main.java:205) [client-intermediary.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:51) [client-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) [fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.15.7.jar:?]
+[21:07:28] [Render thread/INFO]: Loading Entity Texture Features, not fit for consumption in the US.
+[21:07:28] [Render thread/INFO]: [Indigo] Different rendering plugin detected; not applying Indigo.
+[21:07:28] [Render thread/INFO]: Generated!
+[21:07:28] [Render thread/INFO]: Constructing client components for mod horseexpert
+[21:07:28] [Render thread/INFO]: [STDOUT]: Inventory HUD + has been initialized!
+[21:07:28] [Render thread/ERROR]: Mixin apply for mod porting_lib_base failed porting_lib_base.mixins.json:client.TextureManagerMixin from mod porting_lib_base -> net.minecraft.class_1060: org.spongepowered.asm.mixin.injection.throwables.InvalidInjectionException InjectionPoint(Shift)[@At("INVOKE")] on net/minecraft/class_1060::port_lib$fixRelease with priority 1000 cannot inject into net/minecraft/class_1060::method_4615(Lnet/minecraft/class_2960;)V merged by net.vulkanmod.mixin.texture.MTextureManager with priority 1000 [PREINJECT Applicator Phase -> porting_lib_base.mixins.json:client.TextureManagerMixin from mod porting_lib_base -> Prepare Injections ->  -> handler$zhk000$porting_lib_base$port_lib$fixRelease(Lnet/minecraft/class_2960;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V -> Prepare]
+org.spongepowered.asm.mixin.injection.throwables.InvalidInjectionException: InjectionPoint(Shift)[@At("INVOKE")] on net/minecraft/class_1060::port_lib$fixRelease with priority 1000 cannot inject into net/minecraft/class_1060::method_4615(Lnet/minecraft/class_2960;)V merged by net.vulkanmod.mixin.texture.MTextureManager with priority 1000 [PREINJECT Applicator Phase -> porting_lib_base.mixins.json:client.TextureManagerMixin from mod porting_lib_base -> Prepare Injections ->  -> handler$zhk000$porting_lib_base$port_lib$fixRelease(Lnet/minecraft/class_2960;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V -> Prepare]
+	at org.spongepowered.asm.mixin.injection.code.Injector.findTargetNodes(Injector.java:305) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.injection.code.Injector.find(Injector.java:240) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.prepare(InjectionInfo.java:421) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinTargetContext.prepareInjections(MixinTargetContext.java:1337) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.prepareInjections(MixinApplicatorStandard.java:1053) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyMixin(MixinApplicatorStandard.java:395) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:327) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.TargetClassContext.apply(TargetClassContext.java:421) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:403) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:363) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:234) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:202) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:422) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.tryLoadClass(KnotClassDelegate.java:323) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:218) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:119) ~[fabric-loader-0.15.7.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	at mezz.jei.fabric.events.JeiLifecycleEvents.lambda$static$7(JeiLifecycleEvents.java:33) ~[jei-1.19.2-fabric-11.6.0.1019.jar:?]
+	at net.fabricmc.fabric.impl.base.event.ArrayBackedEvent.update(ArrayBackedEvent.java:57) ~[fabric-api-base-0.4.15+8f4e8eb390-935fbba75cd55de.jar:?]
+	at net.fabricmc.fabric.impl.base.event.ArrayBackedEvent.<init>(ArrayBackedEvent.java:53) ~[fabric-api-base-0.4.15+8f4e8eb390-935fbba75cd55de.jar:?]
+	at net.fabricmc.fabric.impl.base.event.EventFactoryImpl.createArrayBacked(EventFactoryImpl.java:47) ~[fabric-api-base-0.4.15+8f4e8eb390-935fbba75cd55de.jar:?]
+	at net.fabricmc.fabric.api.event.EventFactory.createArrayBacked(EventFactory.java:63) ~[fabric-api-base-0.4.15+8f4e8eb390-935fbba75cd55de.jar:?]
+	at mezz.jei.fabric.events.JeiLifecycleEvents.<clinit>(JeiLifecycleEvents.java:33) ~[jei-1.19.2-fabric-11.6.0.1019.jar:?]
+	at mezz.jei.fabric.JustEnoughItemsClient.onInitializeClient(JustEnoughItemsClient.java:19) ~[jei-1.19.2-fabric-11.6.0.1019.jar:?]
+	at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:384) [fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.Hooks.startClient(Hooks.java:53) [fabric-loader-0.15.7.jar:?]
+	at net.minecraft.class_310.<init>(class_310.java:459) [client-intermediary.jar:?]
+	at net.minecraft.client.main.Main.method_44604(Main.java:205) [client-intermediary.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:51) [client-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) [fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.15.7.jar:?]
+[21:07:28] [Render thread/INFO]: Loaded
+[21:07:28] [Render thread/ERROR]: C:\Users\there\curseforge\minecraft\Instances\no create this time fabric maybe\config\jeresources.json (The system cannot find the file specified)
+[21:07:28] [Render thread/WARN]: Failed to find custom wood type twigs:bamboo
+[21:07:28] [Render thread/INFO]: Initialized block sets in 13ms
+[21:07:28] [Render thread/INFO]: Initialized color sets in 44ms
+[21:07:29] [Render thread/INFO]: Initialized color sets in 35ms
+[21:07:29] [Render thread/INFO]: Reloading reverb parameters
+[21:07:29] [Render thread/WARN]: Sound event naturalist:entity.bird.death not found
+[21:07:29] [Render thread/WARN]: Sound event naturalist:entity.bear.ambient_baby not found
+[21:07:29] [Render thread/WARN]: Sound event betterend:betterend.ambient.megalake_grove not found
+[21:07:29] [Render thread/WARN]: Sound event naturalist:item.bucket.fill_snail not found
+[21:07:29] [Render thread/WARN]: Sound event betterend:betterend.music.forest not found
+[21:07:29] [Render thread/WARN]: Sound event naturalist:entity.bear.death not found
+[21:07:29] [Render thread/WARN]: Sound event naturalist:entity.snake.hurt not found
+[21:07:29] [Render thread/WARN]: Sound event naturalist:entity.bear.sleep not found
+[21:07:29] [Render thread/WARN]: Sound event naturalist:entity.zebra.jump not found
+[21:07:29] [Render thread/WARN]: Sound event betterend:betterend.music.caves not found
+[21:07:29] [Render thread/WARN]: Sound event betterend:betterend.ambient.glowing_grasslands not found
+[21:07:29] [Render thread/WARN]: Sound event betterend:betterend.entity.shadow_walker not found
+[21:07:29] [Render thread/WARN]: Sound event naturalist:entity.deer.ambient_baby not found
+[21:07:29] [Render thread/WARN]: Sound event naturalist:entity.bird.ambient_canary not found
+[21:07:29] [Render thread/WARN]: Sound event betterend:betterend.music.water not found
+[21:07:29] [Render thread/WARN]: Sound event naturalist:entity.bird.fly not found
+[21:07:29] [Render thread/WARN]: Sound event naturalist:entity.rhino.ambient not found
+[21:07:29] [Render thread/WARN]: Sound event naturalist:entity.snail.forward not found
+[21:07:29] [Render thread/WARN]: Sound event naturalist:entity.rhino.ambient_baby not found
+[21:07:29] [Render thread/WARN]: Sound event betternether:betternether.ambient.nether_jungle not found
+[21:07:29] [Render thread/WARN]: Sound event naturalist:entity.tortoise.egg_hatch not found
+[21:07:29] [Render thread/WARN]: Sound event naturalist:entity.lion.hurt not found
+[21:07:29] [Render thread/WARN]: Sound event naturalist:entity.bear.spit not found
+[21:07:29] [Render thread/WARN]: Sound event naturalist:entity.alligator.egg_break not found
+[21:07:29] [Render thread/WARN]: Sound event naturalist:entity.snake.hiss not found
+[21:07:29] [Render thread/WARN]: Sound event betterend:betterend.ambient.amber_land not found
+[21:07:29] [Render thread/WARN]: Sound event betterend:betterend.record.grasping_at_stars not found
+[21:07:29] [Render thread/WARN]: Sound event naturalist:entity.duck.death not found
+[21:07:29] [Render thread/WARN]: Sound event naturalist:entity.duck.hurt not found
+[21:07:29] [Render thread/WARN]: Sound event naturalist:entity.zebra.angry not found
+[21:07:29] [Render thread/WARN]: Sound event naturalist:entity.alligator.egg_hatch not found
+[21:07:29] [Render thread/WARN]: Sound event naturalist:entity.lion.ambient not found
+[21:07:29] [Render thread/WARN]: Sound event betterend:betterend.ambient.dust_wastelands not found
+[21:07:29] [Render thread/WARN]: Sound event naturalist:entity.bear.eat not found
+[21:07:29] [Render thread/WARN]: Sound event naturalist:entity.bird.ambient_robin not found
+[21:07:29] [Render thread/WARN]: Sound event naturalist:entity.boar.hurt not found
+[21:07:29] [Render thread/WARN]: Sound event naturalist:entity.hippo.ambient not found
+[21:07:29] [Render thread/WARN]: Sound event naturalist:entity.bird.ambient_cardinal not found
+[21:07:29] [Render thread/WARN]: Sound event naturalist:entity.rhino.scrape not found
+[21:07:29] [Render thread/WARN]: Sound event betterend:betterend.ambient.umbra_valley not found
+[21:07:29] [Render thread/WARN]: Sound event betterend:betterend.entity.dragonfly not found
+[21:07:29] [Render thread/WARN]: Sound event naturalist:entity.alligator.hurt not found
+[21:07:29] [Render thread/WARN]: Sound event naturalist:entity.alligator.death not found
+[21:07:29] [Render thread/WARN]: Sound event naturalist:entity.tortoise.egg_break not found
+[21:07:29] [Render thread/WARN]: Sound event betterend:betterend.music.dark not found
+[21:07:29] [Render thread/WARN]: Sound event naturalist:entity.catfish.flop not found
+[21:07:29] [Render thread/WARN]: Sound event naturalist:entity.duck.ambient not found
+[21:07:29] [Render thread/WARN]: Sound event naturalist:entity.bear.hurt not found
+[21:07:29] [Render thread/WARN]: Sound event naturalist:entity.lion.roar not found
+[21:07:29] [Render thread/WARN]: Sound event betternether:betternether.mob.skull_flight not found
+[21:07:29] [Render thread/WARN]: Sound event betternether:betternether.mob.naga_idle not found
+[21:07:29] [Render thread/WARN]: Sound event naturalist:entity.alligator.ambient not found
+[21:07:29] [Render thread/WARN]: Sound event naturalist:entity.zebra.breathe not found
+[21:07:29] [Render thread/WARN]: Sound event naturalist:entity.giraffe.ambient not found
+[21:07:29] [Render thread/WARN]: Sound event betterend:betterend.ambient.caves not found
+[21:07:29] [Render thread/WARN]: Sound event betterend:betterend.record.eo_dracona not found
+[21:07:29] [Render thread/WARN]: Sound event naturalist:entity.snake.rattle not found
+[21:07:29] [Render thread/WARN]: Sound event betterend:betterend.entity.shadow_walker_damage not found
+[21:07:29] [Render thread/WARN]: Sound event betternether:betternether.mob.jellyfish not found
+[21:07:29] [Render thread/WARN]: Sound event betterend:betterend.ambient.foggy_mushroomland not found
+[21:07:29] [Render thread/WARN]: Sound event betterend:betterend.ambient.megalake not found
+[21:07:29] [Render thread/WARN]: Sound event naturalist:entity.elephant.hurt not found
+[21:07:29] [Render thread/WARN]: Sound event naturalist:entity.deer.hurt not found
+[21:07:29] [Render thread/WARN]: Sound event naturalist:item.bucket.empty_snail not found
+[21:07:29] [Render thread/WARN]: Sound event naturalist:entity.bird.hurt not found
+[21:07:29] [Render thread/WARN]: Sound event naturalist:entity.rubber_ducky.hurt not found
+[21:07:29] [Render thread/WARN]: Sound event betterend:betterend.music.openspace not found
+[21:07:29] [Render thread/WARN]: Sound event naturalist:entity.firefly.hide not found
+[21:07:29] [Render thread/WARN]: Sound event naturalist:entity.rubber_ducky.ambient not found
+[21:07:29] [Render thread/WARN]: Sound event betternether:betternether.ambient.swampland not found
+[21:07:29] [Render thread/WARN]: Sound event naturalist:entity.bear.sniff not found
+[21:07:29] [Render thread/WARN]: Sound event betterend:betterend.ambient.sulphur_springs not found
+[21:07:29] [Render thread/WARN]: Sound event naturalist:entity.zebra.hurt not found
+[21:07:29] [Render thread/WARN]: Sound event naturalist:entity.zebra.death not found
+[21:07:29] [Render thread/WARN]: Sound event naturalist:entity.bird.ambient_bluejay not found
+[21:07:29] [Render thread/WARN]: Sound event naturalist:entity.bear.hurt_baby not found
+[21:07:29] [Render thread/WARN]: Sound event naturalist:entity.rubber_ducky.death not found
+[21:07:29] [Render thread/WARN]: Sound event betternether:betternether.ambient.mushroom_forest not found
+[21:07:29] [Render thread/WARN]: Sound event naturalist:entity.alligator.egg_crack not found
+[21:07:29] [Render thread/WARN]: Sound event naturalist:entity.duck.step not found
+[21:07:29] [Render thread/WARN]: Sound event naturalist:entity.zebra.eat not found
+[21:07:29] [Render thread/WARN]: Sound event naturalist:entity.boar.ambient not found
+[21:07:29] [Render thread/WARN]: Sound event naturalist:entity.snail.crush not found
+[21:07:29] [Render thread/WARN]: Sound event naturalist:entity.vulture.death not found
+[21:07:29] [Render thread/WARN]: Sound event betternether:betternether.mob.firefly.fly not found
+[21:07:29] [Render thread/WARN]: Sound event naturalist:entity.firefly.hurt not found
+[21:07:29] [Render thread/WARN]: Sound event naturalist:entity.hippo.hurt not found
+[21:07:29] [Render thread/WARN]: Sound event naturalist:entity.elephant.ambient not found
+[21:07:29] [Render thread/WARN]: Sound event naturalist:entity.bear.ambient not found
+[21:07:29] [Render thread/WARN]: Sound event naturalist:entity.firefly.death not found
+[21:07:29] [Render thread/WARN]: Sound event betterend:betterend.record.strange_and_alien not found
+[21:07:29] [Render thread/WARN]: Sound event naturalist:entity.bass.flop not found
+[21:07:29] [Render thread/WARN]: Sound event betternether:betternether.mob.naga_attack not found
+[21:07:29] [Render thread/WARN]: Sound event naturalist:entity.deer.hurt_baby not found
+[21:07:29] [Render thread/WARN]: Sound event betterend:betterend.ambient.umbrella_jungle not found
+[21:07:29] [Render thread/WARN]: Sound event naturalist:entity.tortoise.egg_crack not found
+[21:07:29] [Render thread/WARN]: Sound event betterend:betterend.ambient.blossoming_spires not found
+[21:07:29] [Render thread/WARN]: Sound event naturalist:entity.boar.death not found
+[21:07:29] [Render thread/WARN]: Sound event betternether:betternether.ambient.gravel_desert not found
+[21:07:29] [Render thread/WARN]: Sound event betterend:betterend.entity.shadow_walker_death not found
+[21:07:29] [Render thread/WARN]: Sound event naturalist:entity.snail.back not found
+[21:07:29] [Render thread/WARN]: Sound event naturalist:entity.deer.ambient not found
+[21:07:29] [Render thread/WARN]: Sound event betterend:betterend.record.endseeker not found
+[21:07:29] [Render thread/WARN]: Sound event naturalist:entity.dragonfly.loop not found
+[21:07:29] [Render thread/WARN]: Sound event naturalist:entity.vulture.hurt not found
+[21:07:29] [Render thread/WARN]: Sound event naturalist:entity.alligator.ambient_baby not found
+[21:07:29] [Render thread/WARN]: Sound event naturalist:entity.vulture.ambient not found
+[21:07:29] [Render thread/WARN]: Sound event betterend:betterend.ambient.chorus_forest not found
+[21:07:29] [Render thread/WARN]: Sound event naturalist:entity.bird.eat not found
+[21:07:29] [Render thread/WARN]: Sound event naturalist:entity.zebra.ambient not found
+[21:07:29] [Render thread/INFO]: Loading Xaero's Minimap - Stage 1/2
+[21:07:29] [Render thread/INFO]: Loading Xaero's World Map - Stage 1/2
+[21:07:31] [ApplyPresetTimer/INFO]: changing preset to: LOW_IMPACT
+[21:07:31] [ApplyPresetTimer/INFO]: preset active: LOW_IMPACT
+[21:07:31] [ApplyPresetTimer/INFO]: changing preset to: MEDIUM
+[21:07:31] [ApplyPresetTimer/INFO]: preset active: MEDIUM
